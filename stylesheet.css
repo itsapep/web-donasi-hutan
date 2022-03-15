@@ -26,3 +26,20 @@ body {
 a {
   text-decoration: none;
 }
+
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main {
+  background-image: url(https://disk.mediaindonesia.com/thumbs/1800x1200/news/2022/03/34a5c49fab648c87771c3bd606b322f3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter: blur(100px);
+  height: 480px;
+  
+  color: white;
+  text-align: center;
+}
