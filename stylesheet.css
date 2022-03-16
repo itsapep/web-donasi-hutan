@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+html{
+  min-height: 100%;
+}
+
 .container {
   max-width: 100%;
   padding: 0 15px;
@@ -36,10 +40,56 @@ a {
 .main {
   background-image: url(https://disk.mediaindonesia.com/thumbs/1800x1200/news/2022/03/34a5c49fab648c87771c3bd606b322f3.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
   backdrop-filter: blur(100px);
-  height: 480px;
-  
+  background-size: cover;
   color: white;
   text-align: center;
+  width: 100%;
+  background-position: center;
+  padding: 260px 0 200px 0;
+}
+
+.main h1 {
+  font-size: 45px;
+  letter-spacing: 3px;
+  margin-bottom: 0px;
+}
+
+.main h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.main p {
+  margin-bottom: 3px;
+}
+
+.main span {
+  color: rgb(255, 138, 71);
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
 }
